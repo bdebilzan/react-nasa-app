@@ -22,7 +22,6 @@ function App() {
         const apiData = await res.json();
         setData(apiData);
         console.log("Fetched from API");
-        console.log(apiData);
       } catch (err) {
         console.error("Error fetching data:", err);
       }
